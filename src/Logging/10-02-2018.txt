@@ -1,0 +1,80 @@
+10/02/2018 05:30:40:63040903 PM: null logged in
+10/02/2018 07:58:10:71890375 PM: null logged in
+10/02/2018 08:12:03:72723427 PM: null logged in
+10/02/2018 08:12:40:72760879 PM: null created a new customer record
+10/02/2018 08:24:56:73496578 PM: null logged in
+10/02/2018 08:26:17:73577973 PM: null logged in
+10/02/2018 08:28:40:73720942 PM: null logged in
+10/02/2018 08:29:23:73763028 PM: test logged in
+10/02/2018 08:30:00:73800115 PM: test logged in
+10/02/2018 08:30:16:73816908 PM: 123 attempted to log in with invalid credentials
+10/02/2018 08:31:07:73867270 PM: test logged in
+10/02/2018 08:33:05:73985036 PM: test logged in
+10/02/2018 08:34:31:74071456 PM: test logged in
+10/02/2018 08:35:17:74117670 PM: test logged in
+10/02/2018 08:44:57:74697740 PM: test logged in
+10/02/2018 08:47:22:74842147 PM: test logged in
+10/02/2018 08:47:40:74860338 PM: test created a new customer record
+10/02/2018 08:57:06:75426677 PM: test logged in
+10/02/2018 08:57:23:75443871 PM: test created a new customer record
+10/02/2018 08:59:48:75588012 PM: test logged in
+10/02/2018 09:00:03:75603705 PM: test created a new customer record
+10/02/2018 09:00:09:75609244 PM: test logged out
+10/02/2018 09:01:26:75686007 PM: test logged in
+10/02/2018 09:01:40:75700875 PM: test created a new customer record
+10/02/2018 09:03:16:75796908 PM: test logged in
+10/02/2018 09:03:32:75812755 PM: test created a new customer record
+10/02/2018 09:07:13:76033986 PM: test logged in
+10/02/2018 09:07:37:76057293 PM: test created a new customer record
+10/02/2018 09:14:46:76486472 PM: test logged in
+10/02/2018 09:15:02:76502855 PM: test created a new customer record
+10/02/2018 09:15:25:76525846 PM: test created a new customer record
+10/02/2018 09:15:42:76542962 PM: test logged out
+10/02/2018 09:21:04:76864308 PM: test logged in
+10/02/2018 09:21:22:76882320 PM: test created a new customer record
+10/02/2018 09:21:37:76897823 PM: test created a new customer record
+10/02/2018 09:22:57:76977922 PM: test logged in
+10/02/2018 09:23:12:76992697 PM: test created a new customer record
+10/02/2018 09:28:13:77293302 PM: test logged in
+10/02/2018 09:28:30:77310347 PM: test created a new customer record
+10/02/2018 09:30:04:77404326 PM: test logged in
+10/02/2018 09:30:18:77418456 PM: test created a new customer record
+10/02/2018 09:32:02:77522126 PM: test logged in
+10/02/2018 09:32:18:77538952 PM: test created a new customer record
+10/02/2018 09:33:42:77622582 PM: test logged in
+10/02/2018 09:33:57:77637664 PM: test created a new customer record
+10/02/2018 09:41:05:78065513 PM: test logged in
+10/02/2018 09:41:22:78082167 PM: test created a new customer record
+10/02/2018 09:42:32:78152470 PM: test logged in
+10/02/2018 09:42:47:78167041 PM: test created a new customer record
+10/02/2018 09:43:12:78192301 PM: test logged in
+10/02/2018 09:43:29:78209701 PM: test created a new customer record
+10/02/2018 09:59:34:79174870 PM: test logged in
+10/02/2018 09:59:50:79190771 PM: test created a new customer record
+10/02/2018 10:03:09:79389412 PM: test logged in
+10/02/2018 10:03:23:79403516 PM: test created a new customer record
+10/02/2018 10:03:37:79417958 PM: test created a new customer record
+10/02/2018 10:08:08:79688851 PM: test logged in
+10/02/2018 10:08:37:79717609 PM: test created a new customer record
+10/02/2018 10:08:53:79733515 PM: test created a new customer record
+10/02/2018 10:11:14:79874483 PM: test logged in
+10/02/2018 10:11:30:79890759 PM: test created a new customer record
+10/02/2018 10:12:52:79972921 PM: test created a new customer record
+10/02/2018 10:13:03:79983929 PM: test modified a customer record
+10/02/2018 10:14:07:80047859 PM: test modified a customer record
+10/02/2018 10:14:36:80076465 PM: test modified a customer record
+10/02/2018 10:20:58:80458203 PM: test logged out
+10/02/2018 10:25:49:80749286 PM: test logged in
+10/02/2018 10:26:20:80780590 PM: test created a new customer record
+10/02/2018 10:26:32:80792612 PM: test modified a customer record
+10/02/2018 10:26:43:80803409 PM: test modified a customer record
+10/02/2018 10:27:46:80866175 PM: test created a new customer record
+10/02/2018 10:29:40:80980903 PM: test logged in
+10/02/2018 10:30:47:81047765 PM: test logged in
+10/02/2018 10:32:00:81120111 PM: test created a new appointment record
+10/02/2018 10:33:38:81218901 PM: test logged in
+10/02/2018 10:34:19:81259212 PM: test created a new appointment record
+10/02/2018 10:34:52:81292344 PM: test modified a appointment record
+10/02/2018 10:35:30:81330952 PM: test logged out
+10/02/2018 10:54:23:82463762 PM: test logged in
+10/02/2018 10:54:43:82483804 PM: test logged out

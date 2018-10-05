@@ -1,0 +1,18 @@
+10/03/2018 08:43:26:31406751 AM: test logged in
+10/03/2018 08:45:37:31537637 AM: test created a new appointment record
+10/03/2018 08:46:23:31583267 AM: test logged out
+10/03/2018 08:55:22:32122646 AM: null logged in
+10/03/2018 08:55:50:32150179 AM: test logged in
+10/03/2018 08:56:49:32209552 AM: test logged out
+10/03/2018 08:57:12:32232705 AM: test logged in
+10/03/2018 08:57:25:32245682 AM: test logged out
+10/03/2018 09:01:31:32491147 AM: test logged in
+10/03/2018 09:02:33:32553963 AM: test created a new appointment record
+10/03/2018 09:03:47:32627049 AM: test created a new customer record
+10/03/2018 09:04:46:32686666 AM: test created a new appointment record
+10/03/2018 09:05:12:32712954 AM: test logged out
+10/03/2018 11:04:03:39843901 AM: test logged in
+10/03/2018 11:05:30:39930669 午前: test attempted to log in with invalid credentials
+10/03/2018 11:12:09:40329894 AM: test attempted to log in with invalid credentials
+10/03/2018 11:15:32:40532014 AM: fd attempted to log in with invalid credentials
+10/03/2018 11:19:26:40766232 AM: fds attempted to log in with invalid credentials
