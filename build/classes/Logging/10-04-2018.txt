@@ -1,0 +1,5 @@
+10/04/2018 05:57:16:64636928 PM: test logged in
+10/04/2018 05:58:03:64683652 PM: test modified a customer record
+10/04/2018 05:58:32:64712014 PM: test modified a customer record
+10/04/2018 06:00:20:64820937 PM: test created a new customer record
+10/04/2018 06:00:44:64844524 PM: test modified a customer record

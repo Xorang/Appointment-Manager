@@ -169,15 +169,14 @@ public class CustomerDAOImpl implements CustomerDAO {
                 select.close();
             } else {
                 String insertQuery = "insert into " + Constants.DBUSER + ".country "
-                        + "(countryId, country, createDate, createdBy, lastUpdate, lastUpdateBy)"
-                        + "values (?, ?, ?, ?, ?, ?);";
+                        + "(country, createDate, createdBy, lastUpdate, lastUpdateBy)"
+                        + "values (?, ?, ?, ?, ?);";
                 PreparedStatement insert = con.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
-                insert.setInt(1, country.getCountryId());
-                insert.setString(2, country.getCountry()); // country
-                insert.setDate(3, Date.valueOf(country.getCreateDate())); // createDate
-                insert.setString(4, country.getCreatedBy()); // createdBy
-                insert.setTimestamp(5, Timestamp.valueOf(country.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
-                insert.setString(6, country.getLastUpdateBy()); // lastUpdateBy
+                insert.setString(1, country.getCountry()); // country
+                insert.setDate(2, Date.valueOf(country.getCreateDate())); // createDate
+                insert.setString(3, country.getCreatedBy()); // createdBy
+                insert.setTimestamp(4, Timestamp.valueOf(country.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
+                insert.setString(5, country.getLastUpdateBy()); // lastUpdateBy
                 int indicator = insert.executeUpdate();
                 if (indicator > 0) {
                     ResultSet generatedKeys = insert.getGeneratedKeys();
@@ -209,16 +208,15 @@ public class CustomerDAOImpl implements CustomerDAO {
                 select.close();
             } else {
                 String insertQuery = "insert into " + Constants.DBUSER + ".city "
-                        + "(cityId, city, countryId, createDate, createdBy, lastUpdate, lastUpdateBy)"
-                        + "values (?, ?, ?, ?, ?, ?, ?);";
+                        + "(city, countryId, createDate, createdBy, lastUpdate, lastUpdateBy)"
+                        + "values (?, ?, ?, ?, ?, ?);";
                 PreparedStatement insert = con.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
-                insert.setInt(1, city.getCityId());
-                insert.setString(2, city.getCityName()); // city
-                insert.setInt(3, city.getCountry().getCountryId()); // countryId
-                insert.setDate(4, Date.valueOf(city.getCreateDate())); // createDate
-                insert.setString(5, city.getCreatedBy()); // createdBy
-                insert.setTimestamp(6, Timestamp.valueOf(city.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
-                insert.setString(7, city.getLastUpdateBy()); // lastUpdateBy
+                insert.setString(1, city.getCityName()); // city
+                insert.setInt(2, city.getCountry().getCountryId()); // countryId
+                insert.setDate(3, Date.valueOf(city.getCreateDate())); // createDate
+                insert.setString(4, city.getCreatedBy()); // createdBy
+                insert.setTimestamp(5, Timestamp.valueOf(city.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
+                insert.setString(6, city.getLastUpdateBy()); // lastUpdateBy
                 int indicator = insert.executeUpdate();
                 if (indicator > 0) {
                     ResultSet generatedKeys = insert.getGeneratedKeys();
@@ -237,13 +235,15 @@ public class CustomerDAOImpl implements CustomerDAO {
 
     private int checkAddress(Address address) {
         int id = -1;
-        String query = "select addressid from " + Constants.DBUSER + ".address where address = ? and address2 = ? and cityId = ?;";
+        String query = "select addressid from " + Constants.DBUSER + ".address where address = ? and address2 = ? and cityId = ? and postalCode = ? and phone = ?;";
         DbConnectionManager db = DbConnectionManager.getInstance();
         try (Connection con = db.getConnection()) {
             PreparedStatement select = con.prepareStatement(query);
             select.setString(1, address.getAddressLine1());
             select.setString(2, address.getAddressLine2());
             select.setInt(3, address.getCity().getCityId());
+            select.setString(4, address.getPostalCode());
+            select.setString(5, address.getPhone());
             ResultSet rs = select.executeQuery();
             if (rs.next()) {
                 id = rs.getInt("addressid");
@@ -251,19 +251,18 @@ public class CustomerDAOImpl implements CustomerDAO {
                 select.close();
             } else {
                 String insertQuery = "insert into " + Constants.DBUSER + ".address "
-                        + "(addressId, address, address2, cityId, postalCode, phone, createDate, createdBy, lastUpdate, lastUpdateBy)"
-                        + "values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+                        + "(address, address2, cityId, postalCode, phone, createDate, createdBy, lastUpdate, lastUpdateBy)"
+                        + "values (?, ?, ?, ?, ?, ?, ?, ?, ?);";
                 PreparedStatement insert = con.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
-                insert.setInt(1, address.getAddressId());
-                insert.setString(2, address.getAddressLine1()); // address
-                insert.setString(3, address.getAddressLine2()); // address2
-                insert.setInt(4, address.getCity().getCityId()); // cityId
-                insert.setString(5, address.getPostalCode()); // postalCode
-                insert.setString(6, address.getPhone()); // phone
-                insert.setDate(7, Date.valueOf(address.getCreateDate())); // createDate
-                insert.setString(8, address.getCreatedBy()); // createdBy
-                insert.setTimestamp(9, Timestamp.valueOf(address.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
-                insert.setString(10, address.getLastUpdateBy()); // lastUpdateBy
+                insert.setString(1, address.getAddressLine1()); // address
+                insert.setString(2, address.getAddressLine2()); // address2
+                insert.setInt(3, address.getCity().getCityId()); // cityId
+                insert.setString(4, address.getPostalCode()); // postalCode
+                insert.setString(5, address.getPhone()); // phone
+                insert.setDate(6, Date.valueOf(address.getCreateDate())); // createDate
+                insert.setString(7, address.getCreatedBy()); // createdBy
+                insert.setTimestamp(8, Timestamp.valueOf(address.getLastUpdate().atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("UTC")).toLocalDateTime())); // lastUpdate
+                insert.setString(9, address.getLastUpdateBy()); // lastUpdateBy
                 int indicator = insert.executeUpdate();
                 if (indicator > 0) {
                     ResultSet generatedKeys = insert.getGeneratedKeys();

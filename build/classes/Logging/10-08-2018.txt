@@ -1,0 +1,46 @@
+10/08/2018 08:23:39:30219741 AM: test logged in
+10/08/2018 08:23:59:30239124 AM: test created a new customer record
+10/08/2018 08:24:07:30247190 AM: test modified a customer record
+10/08/2018 08:24:22:30262103 AM: test modified a customer record
+10/08/2018 09:38:01:77881216 PM: test logged in
+10/08/2018 09:38:37:77917723 PM: test created a new customer record
+10/08/2018 09:38:51:77931335 PM: test modified a customer record
+10/08/2018 09:39:11:77951023 PM: test modified a customer record
+10/08/2018 09:42:45:78165296 PM: test logged in
+10/08/2018 09:43:00:78180620 PM: test modified a customer record
+10/08/2018 09:43:50:78230425 PM: test logged in
+10/08/2018 09:44:02:78242459 PM: test modified a customer record
+10/08/2018 09:44:16:78256393 PM: test modified a customer record
+10/08/2018 09:44:30:78270969 PM: test modified a customer record
+10/08/2018 09:46:14:78374943 PM: test logged in
+10/08/2018 09:46:33:78393111 PM: test modified a customer record
+10/08/2018 09:46:53:78413094 PM: test modified a customer record
+10/08/2018 09:47:03:78423691 PM: test modified a customer record
+10/08/2018 09:47:14:78434274 PM: test modified a customer record
+10/08/2018 09:47:28:78448142 PM: test modified a customer record
+10/08/2018 09:50:50:78650586 PM: test logged in
+10/08/2018 09:51:22:78682862 PM: test modified a customer record
+10/08/2018 09:53:56:78836411 PM: test modified a customer record
+10/08/2018 10:01:16:79276703 PM: test modified a customer record
+10/08/2018 10:05:35:79535819 PM: test modified a customer record
+10/08/2018 10:06:59:79619441 PM: test modified a customer record
+10/08/2018 10:08:22:79702698 PM: test logged in
+10/08/2018 10:08:34:79714713 PM: test modified a customer record
+10/08/2018 10:09:44:79784503 PM: test logged in
+10/08/2018 10:09:57:79797597 PM: test modified a customer record
+10/08/2018 10:10:47:79847500 PM: test created a new appointment record
+10/08/2018 10:11:27:79887490 PM: test modified a appointment record
+10/08/2018 10:20:58:80458630 PM: test logged in
+10/08/2018 10:33:04:81184497 PM: test logged in
+10/08/2018 10:33:34:81214101 PM: test logged in
+10/08/2018 10:38:03:81483126 PM: test logged in
+10/08/2018 10:38:29:81509160 PM: test logged in
+10/08/2018 10:41:27:81687195 PM: test logged in
+10/08/2018 10:42:17:81737815 PM: test logged in
+10/08/2018 10:45:58:81958798 PM: test logged in
+10/08/2018 10:46:51:82011603 PM: test modified a appointment record
+10/08/2018 10:47:15:82035610 PM: test modified a appointment record
+10/08/2018 10:47:27:82047369 PM: test modified a appointment record
+10/08/2018 10:49:09:82149330 PM: test logged in
+10/08/2018 10:49:21:82161713 PM: test modified a appointment record
+10/08/2018 10:49:39:82179967 PM: test modified a customer record

@@ -1,0 +1,10 @@
+10/06/2018 12:18:01:01081059 AM: test logged in
+10/06/2018 12:22:30:01350363 AM: test logged in
+10/06/2018 12:22:44:01364060 AM: test modified a appointment record
+10/06/2018 12:23:02:01382173 AM: test modified a appointment record
+10/06/2018 12:23:33:01413966 AM: test created a new appointment record
+10/06/2018 12:23:49:01429619 AM: test logged out
+10/06/2018 11:21:37:84097536 PM: test logged in
+10/06/2018 11:21:48:84108948 PM: test modified a appointment record
+10/06/2018 11:22:21:84141577 PM: test created a new appointment record
+10/06/2018 11:23:06:84186089 PM: test logged in

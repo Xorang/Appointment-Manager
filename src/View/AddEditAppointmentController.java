@@ -18,6 +18,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -63,6 +64,7 @@ public class AddEditAppointmentController {
     private Appointment apt;
     private Main Main;
     private Mode mode;
+    private int editingAptId;
 
     private AppointmentDAO aptDao;
     private UserDAO userDao;
@@ -76,6 +78,7 @@ public class AddEditAppointmentController {
 
     @FXML
     private void initialize() {
+        editingAptId = -1;
         aptDao = new AppointmentDAOImpl();
         userDao = new UserDAOImpl();
         custDao = new CustomerDAOImpl();
@@ -121,6 +124,7 @@ public class AddEditAppointmentController {
                 actionLabel.setText("Add Appointment");
                 break;
             case EDIT:
+                editingAptId = apt.getAppointmentId();
                 actionLabel.setText("Edit Appointment");
                 customerChoice.setValue(apt.getCustomer());
                 startDateField.setValue(apt.getStart().toLocalDate());
@@ -139,6 +143,7 @@ public class AddEditAppointmentController {
     private void handleCancel() {
         if (Main.throwConfirmation("cancel")) {
             Main.showAppointmentScreen();
+            editingAptId = -1;
         }
     }
 
@@ -252,17 +257,21 @@ public class AddEditAppointmentController {
     }
 
     private boolean checkForConflicts(LocalTime startTime, LocalTime endTime) {
+        
         List<Appointment> relevantAppointments = aptDao.getAppointmentsByCustomer((Customer) customerChoice.getValue());
         relevantAppointments.addAll(aptDao.getAppointmentsByConsultant((User) consultantChoice.getValue()));
         if (relevantAppointments.size() > 0) {
             // REQUIREMENT G - Using a lambda to more efficiently check the proposed appointment times against existing appointments for conflicts
-            if (relevantAppointments.stream().anyMatch((possibleConflict) -> (
-                    (!startTime.isBefore(possibleConflict.getStart().toLocalTime()) && startTime.isBefore(possibleConflict.getEnd().toLocalTime()))
-                    || (!endTime.isBefore(possibleConflict.getStart().toLocalTime()) && endTime.isBefore(possibleConflict.getEnd().toLocalTime()))))) {
+                if (relevantAppointments.stream().anyMatch(((possibleConflict)-> ( 
+                        (possibleConflict.getAppointmentId() == editingAptId ) || (((possibleConflict.getStart().toLocalTime().isBefore(startTime)) &&
+                        possibleConflict.getEnd().toLocalTime().isBefore(startTime)) ||
+                        (possibleConflict.getStart().toLocalTime().isAfter(startTime)) &&
+                        possibleConflict.getStart().toLocalTime().isAfter(endTime)))))) {
+                return false;
+            } else {
                 return true;
-            }
+            } 
         }
         return false;
     }
-
 }

@@ -1,0 +1,41 @@
+10/05/2018 05:32:03:63123104 PM: test logged in
+10/05/2018 05:32:30:63150652 PM: test created a new appointment record
+10/05/2018 05:49:50:64190006 PM: test created a new customer record
+10/05/2018 05:50:12:64212679 PM: test modified a appointment record
+10/05/2018 05:50:34:64234950 PM: test modified a appointment record
+10/05/2018 06:07:20:65240629 PM: test logged in
+10/05/2018 06:07:32:65252578 PM: test modified a appointment record
+10/05/2018 06:07:40:65260155 PM: test modified a appointment record
+10/05/2018 06:08:28:65308212 PM: test created a new appointment record
+10/05/2018 06:08:58:65338412 PM: test modified a appointment record
+10/05/2018 06:09:19:65359514 PM: test modified a appointment record
+10/05/2018 06:12:07:65527506 PM: test modified a appointment record
+10/05/2018 06:12:34:65554246 PM: test modified a appointment record
+10/05/2018 06:23:59:66239949 PM: test logged in
+10/05/2018 06:28:36:66516549 PM: test logged in
+10/05/2018 06:28:43:66523912 PM: test modified a appointment record
+10/05/2018 06:28:52:66532813 PM: test modified a appointment record
+10/05/2018 06:33:38:66818588 PM: test logged in
+10/05/2018 06:33:47:66827372 PM: test modified a appointment record
+10/05/2018 06:39:41:67181060 PM: test logged in
+10/05/2018 06:40:37:67237214 PM: test modified a appointment record
+10/05/2018 06:45:09:67509129 PM: test logged in
+10/05/2018 06:45:15:67515650 PM: test modified a appointment record
+10/05/2018 06:45:23:67523282 PM: test modified a appointment record
+10/05/2018 06:45:33:67533734 PM: test modified a appointment record
+10/05/2018 06:45:44:67544309 PM: test modified a appointment record
+10/05/2018 06:45:53:67553075 PM: test logged out
+10/05/2018 06:46:08:67568985 PM: test logged in
+10/05/2018 06:46:16:67576202 PM: test modified a appointment record
+10/05/2018 06:46:19:67579342 PM: test logged out
+10/05/2018 08:56:34:75394578 PM: test logged in
+10/05/2018 08:57:01:75421671 PM: test modified a appointment record
+10/05/2018 08:58:49:75529669 PM: test logged in
+10/05/2018 08:59:01:75541073 PM: test modified a appointment record
+10/05/2018 08:59:16:75556008 PM: test modified a appointment record
+10/05/2018 09:00:47:75647071 PM: test logged in
+10/05/2018 09:01:03:75663907 PM: test modified a appointment record
+10/05/2018 09:01:15:75675659 PM: test logged out
+10/05/2018 09:02:40:75760343 PM: test logged in
+10/05/2018 09:02:48:75768792 PM: test modified a appointment record
+10/05/2018 09:03:00:75780308 PM: test modified a appointment record

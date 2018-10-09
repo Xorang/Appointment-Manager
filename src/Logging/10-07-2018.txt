@@ -1,0 +1,37 @@
+10/07/2018 02:01:56:50516229 PM: test logged in
+10/07/2018 02:02:12:50532734 PM: test modified a appointment record
+10/07/2018 02:02:25:50545389 PM: test modified a appointment record
+10/07/2018 02:03:12:50592844 PM: test logged in
+10/07/2018 02:03:33:50613146 PM: test modified a appointment record
+10/07/2018 02:05:31:50731099 PM: test logged in
+10/07/2018 02:05:56:50756791 PM: test created a new appointment record
+10/07/2018 02:06:27:50787192 PM: test modified a appointment record
+10/07/2018 02:06:49:50809219 PM: test created a new appointment record
+10/07/2018 02:07:38:50858189 PM: test logged out
+10/07/2018 02:09:32:50972334 PM: test logged in
+10/07/2018 02:09:39:50979602 PM: test modified a appointment record
+10/07/2018 02:09:49:50989797 PM: test modified a appointment record
+10/07/2018 02:15:22:51322479 PM: test logged in
+10/07/2018 02:15:32:51332102 PM: test modified a appointment record
+10/07/2018 02:16:00:51360407 PM: test modified a customer record
+10/07/2018 02:16:21:51381400 PM: test modified a customer record
+10/07/2018 02:16:45:51405313 PM: test logged out
+10/07/2018 02:20:37:51637255 PM: test logged in
+10/07/2018 02:20:59:51659194 PM: test created a new customer record
+10/07/2018 02:21:08:51668751 PM: test modified a customer record
+10/07/2018 02:29:37:52177835 PM: test logged in
+10/07/2018 02:29:58:52198053 PM: test created a new customer record
+10/07/2018 02:30:04:52204774 PM: test modified a customer record
+10/07/2018 02:38:15:52695151 PM: test logged in
+10/07/2018 02:38:28:52708863 PM: test created a new customer record
+10/07/2018 02:38:38:52718431 PM: test modified a customer record
+10/07/2018 02:38:45:52725925 PM: test modified a customer record
+10/07/2018 02:39:05:52745230 PM: test logged in
+10/07/2018 02:39:19:52759168 PM: test created a new customer record
+10/07/2018 02:39:25:52765255 PM: test modified a customer record
+10/07/2018 02:43:52:53032655 PM: test logged in
+10/07/2018 02:44:06:53046387 PM: test created a new customer record
+10/07/2018 02:44:14:53054469 PM: test modified a customer record
+10/07/2018 02:44:21:53061678 PM: test modified a customer record
+10/07/2018 02:44:34:53074337 PM: test modified a customer record
+10/07/2018 02:44:40:53080442 PM: test modified a customer record
